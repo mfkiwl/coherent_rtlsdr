@@ -4,7 +4,6 @@ from datetime import datetime
 from multiprocessing import Process, Queue
 import asyncio
 
-
 async def get_samples(sdr, q1):
     counter = 0
     timestamp1 = datetime.now()
